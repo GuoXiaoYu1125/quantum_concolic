@@ -1,0 +1,29 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE9D0A5390>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.11259984970092773 )-------------
+-------------------------------(New Result: 4 )-------------------------------
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE9D0A7100>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.18476271629333496 )-------------
+-------------------------------(New Result: 1 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE9D203550>)]
+qc-state: [-0.67039703+0.64342255j -0.13233839+0.34505333j]
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DEE558A950>)]
+qc-state: [-0.64590838+0.60981455j  0.43274312+0.15382447j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DEE54B53C0>)]
+qc-state: [ 0.60361667-0.47632898j -0.54812104+0.32912148j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DEE558BE50>)]
+qc-state: [-0.2099234 +0.28749959j  0.14662491-0.92291781j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DEE55BB730>)]
+qc-state: [ 0.32354018+0.61823539j -0.68519999+0.20882462j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DEE67B5C90>)]
+qc-state: [-0.27312625+0.71152593j  0.1382395 -0.63247351j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DEE55B8520>)]
+qc-state: [0.7757245 -0.44397677j 0.04156954-0.44655135j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DEE54A60E0>)]
+qc-state: [-0.60062866-0.4472345j  -0.2017117 -0.63129939j]
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([1, 2, 3, 4]), found: dict_keys([4, 1])
+Finish Time: 79.5460557937622

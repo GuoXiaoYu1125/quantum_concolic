@@ -1,0 +1,29 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CB8A9CD090>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.11550688743591309 )-------------
+-------------------------------(New Result: 0 )-------------------------------
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CB8A9CFBB0>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.18717288970947266 )-------------
+-------------------------------(New Result: 2 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CBD2C69720>)]
+qc-state: [-0.00594888-0.19370117j -0.91948312-0.34204571j]
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CB8AB3AEF0>)]
+qc-state: [ 0.67372032-0.59286303j -0.24649653-0.36586037j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CBD2D73700>)]
+qc-state: [0.8158522 +0.36294438j 0.30772133+0.32857898j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CB8A9CFAC0>)]
+qc-state: [-0.75254871-0.21010742j -0.22508048-0.58212035j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CBD2D28AF0>)]
+qc-state: [0.4279203+0.03634621j 0.481946 +0.76373504j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CBD2D5F3A0>)]
+qc-state: [ 0.32858022-0.3690128j  -0.65223177+0.57485504j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CB8AB3B730>)]
+qc-state: [-0.5023026 -0.31825057j -0.59471127+0.54104267j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002CBD2D73970>)]
+qc-state: [ 0.75228722-0.56791602j -0.31060874-0.12270917j]
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([-1, 0, 1, 2]), found: dict_keys([0, 2])
+Finish Time: 5.4918413162231445

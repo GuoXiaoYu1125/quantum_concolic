@@ -1,0 +1,28 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000020FF11D1060>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 5 )-------------------------------
+[('x', 4), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000020FF11D2E00>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 4 )-------------------------------
+[('x', 0), ('y', -20), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000020FF130F220>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 7 )-------------------------------
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000020FF133DDE0>)]
+qc-state: [ 0.52932512-0.27183917j -0.6667545 -0.448728j  ]
+[('x', 4), ('y', -20), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000210494CF760>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 6 )-------------------------------
+[('x', 4), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000210495D1690>)]
+qc-state: [ 0.77757789+0.14152403j -0.1741653 -0.58737554j]
+[('x', 0), ('y', -20), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002104A792DD0>)]
+qc-state: [-0.56454544-0.39843802j -0.59283661-0.4136186j ]
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000210496C56C0>)]
+qc-state: [ 0.32881558+0.20325011j -0.65955279+0.6446393j ]
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000020FF133EEF0>)]
+qc-state: [-0.45594894-0.67736881j -0.50981325+0.27087362j]
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000210495EC3D0>)]
+qc-state: [-0.79853591+0.53035904j  0.22896563-0.16921708j]
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([0, 1, 2, 3, 4, 5, 6, 7]), found: dict_keys([5, 4, 7, 6])

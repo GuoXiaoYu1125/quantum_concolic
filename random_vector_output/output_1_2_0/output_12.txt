@@ -1,0 +1,30 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BC74A84970>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.12318754196166992 )-------------
+-------------------------------(New Result: 2 )-------------------------------
+[('x', -12), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BC74A87E80>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.19887518882751465 )-------------
+-------------------------------(New Result: 4 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BC74BC65C0>)]
+qc-state: [0.46288813+0.30457688j 0.47960769+0.68039986j]
+---------------------------(Time: 0.2666003704071045 )-------------
+-------------------------------(New Result: 1 )-------------------------------
+[('x', -12), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BCCCCF9D20>)]
+qc-state: [-0.78457964+0.21775406j  0.04988977-0.5783848j ]
+[('x', -12), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BCCCF70F40>)]
+qc-state: [0.3393129 -0.02314093j 0.84385737+0.41501324j]
+[('x', -12), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BCCCDF6920>)]
+qc-state: [-0.89379462-0.08868207j -0.17768945-0.40211084j]
+[('x', -12), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BCCE0F0E80>)]
+qc-state: [-0.14502288+0.79443327j -0.50517904+0.30436537j]
+[('x', -12), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BCCCFCEE60>)]
+qc-state: [0.40944765+0.34203626j 0.14270019+0.83366689j]
+[('x', -12), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002BCCCD7C580>)]
+qc-state: [-0.25009935+0.02810436j  0.89112657+0.3775631j ]
+---------------------------(Time: 49.98575973510742 )-------------
+-------------------------------(New Result: 3 )-------------------------------
+Target program test passed <---
+Finish Time: 49.98575973510742

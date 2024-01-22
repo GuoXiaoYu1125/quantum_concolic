@@ -1,0 +1,31 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018F926A1360>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.11251306533813477 )-------------
+-------------------------------(New Result: 4 )-------------------------------
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018F926A3070>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.19270777702331543 )-------------
+-------------------------------(New Result: 2 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018F9280CA90>)]
+qc-state: [-0.71785167+0.41169876j -0.39984947+0.39409836j]
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018FDAA99450>)]
+qc-state: [ 0.25839075-0.91089082j -0.31943941-0.03834834j]
+---------------------------(Time: 10.335927248001099 )-------------
+-------------------------------(New Result: 1 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018FDAA99DE0>)]
+qc-state: [ 0.73952617+0.17533038j -0.6301316 -0.15904237j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018FDAAEAB90>)]
+qc-state: [0.11874904-0.19246994j 0.55756662+0.7987324j ]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018FDAA150C0>)]
+qc-state: [-0.46340225+0.70256033j  0.53973502-0.01880009j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018FDABC46A0>)]
+qc-state: [-0.76578658+0.2289956j   0.56392319-0.20765973j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018FDAAA9360>)]
+qc-state: [-0.55942805+0.70082992j  0.26280322+0.35610692j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000018FDABCD720>)]
+qc-state: [-0.1148032 -0.53358398j  0.58514993+0.59975655j]
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([1, 2, 3, 4]), found: dict_keys([4, 2, 1])
+Finish Time: 70.86692500114441
